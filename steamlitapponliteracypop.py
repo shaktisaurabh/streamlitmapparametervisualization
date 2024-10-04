@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st 
 import pandas as pd 
 # st.set_page_config(layout='wide')
-df=pd.read_csv(r"C:\Users\LENOVO\Downloads\plotlyproject.csv") 
+df=pd.read_csv("plotlyproject.csv") 
 # print(df.head()) 
 st.set_page_config(layout='wide')
 st.sidebar.title("India's data vizualization") 
